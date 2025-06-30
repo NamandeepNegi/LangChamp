@@ -6,7 +6,7 @@ Connect with native speakers, practice new languages, and become a true language
 
 ## 🚀 Live Demo
 
-👉 [Check it out here!](https://video-calling-chatting-production.up.railway.app)
+👉 [Check it out here!](https://langchamp-production.up.railway.app)
 
 ---
 
