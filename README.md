@@ -13,13 +13,13 @@ Connect with native speakers, practice new languages, and become a true language
 ## 📸 Screenshots
 
 ### 🔐 Login Page
-![Login Page](/login-page-langchamp.png)
+![Login Page](/frontend/public/login-page-langchamp.png)
 
 ### 🏠 Homepage
-![Homepage](/homepage-langchamp.png)
+![Homepage](/frontend/public/homepage-langchamp.png)
 
 ### 💬 Chat Page
-![Chat Page](/chat-page-langchamp.png)
+![Chat Page](/frontend/public/chat-page-langchamp.png)
 
 
 ## ✨ Features
@@ -64,5 +64,4 @@ Connect with native speakers, practice new languages, and become a true language
 
 ---
 
-## Author 
-### Namandeep Negi
+## Author - ### Namandeep Negi
