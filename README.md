@@ -52,5 +52,3 @@ Connect with native speakers, practice new languages, and become a true language
 
 ---
 
-## 📁 Project Structure
-
