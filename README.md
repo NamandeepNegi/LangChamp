@@ -10,6 +10,18 @@ Connect with native speakers, practice new languages, and become a true language
 
 ---
 
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login Page](/login-page-langchamp.png)
+
+### 🏠 Homepage
+![Homepage](/homepage-langchamp.png)
+
+### 💬 Chat Page
+![Chat Page](/chat-page-langchamp.png)
+
+
 ## ✨ Features
 
 - 🌐 **Real-time Messaging**
@@ -52,3 +64,5 @@ Connect with native speakers, practice new languages, and become a true language
 
 ---
 
+## Author 
+### Namandeep Negi
