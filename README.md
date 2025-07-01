@@ -64,4 +64,4 @@ Connect with native speakers, practice new languages, and become a true language
 
 ---
 
-## Author - ### Namandeep Negi
+## Author - Namandeep Negi
