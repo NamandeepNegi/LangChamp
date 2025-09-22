@@ -9,6 +9,7 @@ import userRoutes from "./routes/user.route.js";
 import chatRoutes from "./routes/chat.route.js";
 
 import { connectDB } from "./lib/db.js";
+import job from "./controllers/cronJob.js";
 
 const app = express();
 const PORT = process.env.PORT;
@@ -28,6 +29,8 @@ app.use(cookieParser());
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/chat", chatRoutes);
+
+job.start();
 
 // except the above route paths, all routes should be served from frontend dist
 if (process.env.NODE_ENV === "production") {
