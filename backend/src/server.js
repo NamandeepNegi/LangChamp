@@ -32,14 +32,13 @@ app.use("/api/chat", chatRoutes);
 
 job.start();
 
-// except the above route paths, all routes should be served from frontend dist
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname, "../frontend/dist")));
+// Serve static files from frontend build
+app.use(express.static(path.join(__dirname, "../frontend/dist")));
 
-  app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"));
-  });
-}
+// except the above route paths, all routes should be served from frontend dist
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"));
+});
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
