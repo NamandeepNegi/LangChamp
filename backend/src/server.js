@@ -36,7 +36,7 @@ job.start();
 app.use(express.static(path.join(__dirname, "../frontend/dist")));
 
 // Any requests that don't match the above routes should be served from the frontend's index.html
-app.get("/*", (req, res) => {
+app.use((req, res) => {
   res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"));
 });
 
