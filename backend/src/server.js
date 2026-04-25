@@ -35,8 +35,8 @@ job.start();
 // Serve static files from frontend build
 app.use(express.static(path.join(__dirname, "../frontend/dist")));
 
-// except the above route paths, all routes should be served from frontend dist
-app.get("*", (req, res) => {
+// Any requests that don't match the above routes should be served from the frontend's index.html
+app.get("/*", (req, res) => {
   res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"));
 });
 
